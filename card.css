@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Lato:wght@400;700;900&family=Mynerve&family=Pacifico&family=Rajdhani:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: aliceblue;
+  color: rgb(32, 29, 29);
+}
+.img_container {
+  margin: 100px auto;
+  max-width: 400px;
+  height: 600px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(170, 168, 168), -5px -5px 10px rgb(240, 238, 238);
+  padding: 25px;
+}
+.img {
+  width: 200px;
+  height: 200px;
+  background-color: crimson;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 50%;
+  /* outline: 4px dotted black; */
+  box-shadow: 5px 5px 10px rgb(204, 56, 56), -5px -5px 10px rgb(216, 20, 20);
+}
+.img img {
+  cursor: pointer;
+}
+.img img:hover {
+  filter: grayscale(1);
+}
+.img_details {
+  margin: 25px;
+  text-align: center;
+}
+.img_details h1 {
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+}
+
+.img_details h4 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 10px auto;
+  color: rgb(216, 20, 20);
+  text-transform: uppercase;
+  font-weight: 700px;
+  letter-spacing: 3px;
+}
+
+.img_details p {
+  text-align: justify;
+  font-size: 1.2rem;
+  margin: 18px auto;
+}
+.img_container a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  background-color: rgb(216, 20, 20);
+  padding: 8px 17px;
+  border-radius: 5px;
+  color: aquamarine;
+  display: inline-block;
+  margin: 20px auto;
+}
+
+.img_details a:hover {
+  background-color: rgb(245, 60, 60);
+  color: rgb(145, 247, 213);
+  box-shadow: 5px 5px 15px rgb(160, 11, 11), 5px 5px 15px rgb(247, 51, 51);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.img_details .footer {
+  text-align: center;
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+  margin: 30px auto;
+  color: black;
+}
