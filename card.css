@@ -32,6 +32,7 @@ body {
 }
 .img img:hover {
   filter: grayscale(1);
+  /* box-shadow: 5px 5px 10px rgb(59, 57, 57), -5px -5px 10px rgb(131, 129, 129); */
 }
 .img_details {
   margin: 25px;

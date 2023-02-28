@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Lato:wght@400;700;900&family=Mynerve&family=Pacifico&family=Rajdhani:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: aliceblue;
+  color: rgb(32, 29, 29);
+  font-size: 1.3rem;
+}
+
+table {
+  background-color: wheat;
+  margin: 100px auto;
+  border-radius: 8px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+  border-collapse: collapse;
+}
+tr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+tbody tr:nth-child(odd) {
+  background-color: whitesmoke;
+}
+
+tbody tr td:nth-child(4) {
+  text-align: right;
+}
+
+tbody tr td:nth-child(5) {
+  text-align: right;
+}
+tbody tr td:nth-child(3) {
+  text-align: center;
+}
+tbody tr td:first-child {
+  color: royalblue;
+}
+tbody tr td:last-child {
+  display: inline-block;
+  background-color: orangered;
+  padding: 6px 5px;
+  margin: 15px auto;
+  border-radius: 6px;
+}
+th,
+td {
+  letter-spacing: 2px;
+  padding: 20px;
+}
+th {
+  text-transform: uppercase;
+}
+.received td:last-child {
+  background-color: yellow;
+}
+.under_shipment td:last-child {
+  background-color: red;
+}
+.not_received td:last-child {
+  background-color: palevioletred;
+}
+
+.iphone td:nth-child(2) {
+  background-color: yellow;
+}
+
+.iphone td:hover {
+  background-color: brown;
+}
